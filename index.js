@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
+const path=require('path')
 const PORT = 3000;
 
 app.use(express.json());
@@ -73,4 +74,5 @@ app.listen(PORT, () => {
     console.log(`Product API is running on http://localhost:${PORT}`);
     console.log(`GET API Endpoint: http://localhost:${PORT}/products`);
 });
+
 
