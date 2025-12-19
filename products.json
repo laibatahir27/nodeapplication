@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "name": "Chocolate Truffle Cake",
+    "price": 950,
+    "category": "Cake",
+    "stock": 15
+  },
+  {
+    "id": 102,
+    "name": "Sourdough Loaf",
+    "price": 350.5,
+    "category": "Bread",
+    "stock": 25
+  },
+  {
+    "id": 103,
+    "name": "Final Cake Test",
+    "price": 1500,
+    "category": "Cake",
+    "stock": 5
+  }
+]
