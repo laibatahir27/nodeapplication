@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-const DATA_FILE_PATH = 'products.json'; // JSON file path
+const DATA_FILE_PATH = path.join(__dirname,'products.json'); // JSON file path
 
 // Read products from file safely
 function readProductsData() {
@@ -73,3 +73,4 @@ app.listen(PORT, () => {
     console.log(`Product API is running on http://localhost:${PORT}`);
     console.log(`GET API Endpoint: http://localhost:${PORT}/products`);
 });
+
